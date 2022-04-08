@@ -26,35 +26,35 @@ class _HomePage2State extends State<HomePage2> {
 
   // ignore: non_constant_identifier_names
   List<Words>? word_list = word_list1;
-  List<Words>? w_list; // = word_list1;
+  List<Words>? w_list = word_list1;
   @override
   void initState() {
     super.initState();
-    this.list_oqish();
+    // this.list_oqish();
 
     // print('object');
   }
 
-  Future<List<Words>> oqish() async {
-    final String response =
-        await rootBundle.loadString('assets/data/data1.json');
-    final data = await json.decode(response);
-    setState(() {
-      word_list!.clear();
-      for (var i = 0; i < data.length; i++) {
-        word_list?.add(Words(
-            en_word: data[i]['en_word'],
-            uz_word: data[i]['uz_word'],
-            discription: data[i]['discription']));
-      }
-    });
-    return word_list!;
-  }
+  // Future<List<Words>> oqish() async {
+  //   final String response =
+  //       await rootBundle.loadString('assets/data/data1.json');
+  //   final data = await json.decode(response);
+  //   setState(() {
+  //     word_list!.clear();
+  //     for (var i = 0; i < data.length; i++) {
+  //       word_list?.add(Words(
+  //           en_word: data[i]['en_word'],
+  //           uz_word: data[i]['uz_word'],
+  //           discription: data[i]['discription']));
+  //     }
+  //   });
+  //   return word_list!;
+  // }
 
-  Future<List<Words>> list_oqish() async {
-    w_list = word_list;
-    return await oqish();
-  }
+  // Future<List<Words>> list_oqish() async {
+  //   w_list = word_list;
+  //   return await oqish();
+  // }
 
   void qidiruv(String text) {
     setState(() {
@@ -152,60 +152,60 @@ class _HomePage2State extends State<HomePage2> {
           ),
         ],
       ),
-      drawer: Drawer(
-        child: ListView(
-          children: [
-            const DrawerHeader(
-              decoration: BoxDecoration(
-                color: Colors.blue,
-              ),
-              child: Text(
-                'Pedagogika fani bo`yicha o`zbekcha inglizcha-o`zbekcha izohli lug`at',
-                maxLines: 10,
-                overflow: TextOverflow.ellipsis,
-                style: TextStyle(
-                    fontSize: 24,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white),
-              ),
-            ),
-            ListTile(
-              title: const Text('Dastur haqida'),
-              onTap: () {},
-            ),
-            ListTile(
-              title: const Text('Muallif haqida'),
-              onTap: () {},
-            ),
-            ListTile(
-              title: const Text('Dasturdan chiqish'),
-              onTap: () {
-                Navigator.pop(context);
-                showDialog<String>(
-                  context: context,
-                  builder: (BuildContext context) => AlertDialog(
-                    title: const Text('Dasturdan chiqish'),
-                    content: const Text('Dasturdan chiqishni hohlasysizmi?'),
-                    actions: <Widget>[
-                      TextButton(
-                        onPressed: () => Navigator.pop(context, 'Cancel'),
-                        child: const Text('Yo`q'),
-                      ),
-                      TextButton(
-                        onPressed: () {
-                          Navigator.pop(context, 'OK');
-                          // exit(0);
-                        },
-                        child: const Text('Ha'),
-                      ),
-                    ],
-                  ),
-                );
-              },
-            ),
-          ],
-        ),
-      ),
+      // drawer: Drawer(
+      //   child: ListView(
+      //     children: [
+      //       const DrawerHeader(
+      //         decoration: BoxDecoration(
+      //           color: Colors.blue,
+      //         ),
+      //         child: Text(
+      //           'Pedagogika fani bo`yicha o`zbekcha inglizcha-o`zbekcha izohli lug`at',
+      //           maxLines: 10,
+      //           overflow: TextOverflow.ellipsis,
+      //           style: TextStyle(
+      //               fontSize: 24,
+      //               fontWeight: FontWeight.bold,
+      //               color: Colors.white),
+      //         ),
+      //       ),
+      //       ListTile(
+      //         title: const Text('Dastur haqida'),
+      //         onTap: () {},
+      //       ),
+      //       ListTile(
+      //         title: const Text('Muallif haqida'),
+      //         onTap: () {},
+      //       ),
+      //       ListTile(
+      //         title: const Text('Dasturdan chiqish'),
+      //         onTap: () {
+      //           Navigator.pop(context);
+      //           showDialog<String>(
+      //             context: context,
+      //             builder: (BuildContext context) => AlertDialog(
+      //               title: const Text('Dasturdan chiqish'),
+      //               content: const Text('Dasturdan chiqishni hohlasysizmi?'),
+      //               actions: <Widget>[
+      //                 TextButton(
+      //                   onPressed: () => Navigator.pop(context, 'Cancel'),
+      //                   child: const Text('Yo`q'),
+      //                 ),
+      //                 TextButton(
+      //                   onPressed: () {
+      //                     Navigator.pop(context, 'OK');
+      //                     // exit(0);
+      //                   },
+      //                   child: const Text('Ha'),
+      //                 ),
+      //               ],
+      //             ),
+      //           );
+      //         },
+      //       ),
+      //     ],
+      //   ),
+      // ),
       body: ListView.builder(
           itemCount: w_list!.length,
           itemBuilder: (BuildContext context, int index) {
