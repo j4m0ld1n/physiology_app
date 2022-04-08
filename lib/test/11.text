@@ -1,0 +1,144 @@
+{
+      'questionText': 'Katta odamlarning organizmda qon tana massasini necha foizini tashkil etadi?',
+      'answers': [
+        {'text': '5%', 'score': 0},
+        {'text': '6%', 'score': 0},
+        {'text': '6.5%', 'score': 0},
+        {'text': '7%', 'score': 1},
+      ],
+    },
+    {
+      'questionText': 'Qon plazmasining necha foizini suv tashlik qiladi?',
+      'answers': [
+        {'text': '90%', 'score': 0},
+        {'text': '85%', 'score': 0},
+        {'text': '80%', 'score': 1},
+        {'text': '95%', 'score': 0},
+      ],
+    },
+    {
+      'questionText': 'Yurak devori necha qavatdan iborat?',
+      'answers': [
+        {'text': '4', 'score': 0},
+        {'text': '3', 'score': 1},
+        {'text': '5', 'score': 0},
+        {'text': '2', 'score': 0},
+      ],
+    },
+    {
+      'questionText': 'Aorta necha qisimga bo‘linadi?',
+      'answers': [
+        {'text': '5', 'score': 0},
+        {'text': '3', 'score': 1},
+        {'text': '2', 'score': 0},
+        {'text': '4', 'score': 0},
+      ],
+    },
+    {
+      'questionText': 'Yurak devorlari nechcha qavat va qaysi qavatlardan iborat?',
+      'answers': [
+        {'text': '2 qavat: Perikard, epikard', 'score': 0},
+        {'text': '3 qavat: Perikard, epikard, miokard', 'score': 1},
+        {'text': '3 qavat: Perikard, miokard, endokard', 'score': 0},
+        {'text': '2 qavat: Perikard, endokard', 'score': 0},
+      ],
+    },
+    {
+      'questionText': 'Yurakning qaysi qavati seroz pardadan tashkil topib, parietal va vitseral qavatlarni tashkil etadi?',
+      'answers': [
+        {'text': 'Epikard', 'score': 0},
+        {'text': 'Perikard', 'score': 0},
+        {'text': 'Endokard', 'score': 1},
+        {'text': 'Miokard', 'score': 0},
+      ],
+    },
+    {
+      'questionText': 'Buyrak tanachasi qanday tomirlardan to‘ridan iborat?',
+      'answers': [
+        {'text': 'arteriya kapillar', 'score': 0},
+        {'text': 'vena kapillar', 'score': 1},
+        {'text': 'tog‘ri javob yo‘q', 'score': 0},
+        {'text': 'tog‘ri javob yo‘q', 'score': 0},
+      ],
+    },
+    {
+      'questionText': 'Qaysi qon guruhida aglyutinogen  A va B bo‘ladi?',
+      'answers': [
+        {'text': '1', 'score': 1},
+        {'text': '2', 'score': 0},
+        {'text': '3', 'score': 0},
+        {'text': '4', 'score': 0},
+      ],
+    },
+    {
+      'questionText': 'Yurak egatlari va uning tomirlarini qaysi modda toʻldirib turadi?',
+      'answers': [
+        {'text': 'Oqsil', 'score': 1},
+        {'text': 'Yogʻ', 'score': 0},
+        {'text': 'Ferment', 'score': 0},
+        {'text': 'Lipopprotein', 'score': 0},
+      ],
+    },
+    {
+      'questionText': 'Oʻng boʻlmacha va oʻng qorincha orasida qanday klapn joylashgan?',
+      'answers': [
+        {'text': '2 tabaqali', 'score': 0},
+        {'text': 'Yarimoysimon', 'score': 0},
+        {'text': '3 tabaqali', 'score': 1},
+        {'text': 'Klapn boʻlmaydi', 'score': 0},
+      ],
+    },
+    {
+      'questionText': 'Yurakning qisqarishi nima deb ataladi?',
+      'answers': [
+        {'text': 'sistola', 'score': 1},
+        {'text': 'diastola', 'score': 0},
+        {'text': 'sistolik', 'score': 0},
+        {'text': 'diastolik', 'score': 0},
+      ],
+    },
+    {
+      'questionText': 'Chap uyqu arteriyasi aortaning qaysi qismidan chiqadi?',
+      'answers': [
+        {'text': 'aortaning quyi qismidan', 'score': 0},
+        {'text': 'aortaning boshlang`ich qismidan', 'score': 0},
+        {'text': 'aorta ravog‘ining quyi qismidan', 'score': 0},
+        {'text': 'aorta ravog‘ining o`rta qismidan', 'score': 1},
+      ],
+    },
+    {
+      'questionText': 'Venoz qon qayerda arterial qonga aylanadi?',
+      'answers': [
+        {'text': 'kichik qon aylanish doirasida', 'score': 1},
+        {'text': 'katta qon aylanish doirasida', 'score': 0},
+        {'text': 'o`pka venalarida', 'score': 0},
+        {'text': 'o‘pkaga boradigan bronxial arteriya qon tomirlarida', 'score': 0},
+      ],
+    },
+    {
+      'questionText': 'Vena qoni qaysi arteriya qon tomirlaridan oqadi?',
+      'answers': [
+        {'text': 'uyqu', 'score': 0},
+        {'text': 'o`pka', 'score': 1},
+        {'text': 'ko`krak', 'score': 0},
+        {'text': 'qorin', 'score': 0},
+      ],
+    },
+    {
+      'questionText': 'createdFlutter',
+      'answers': [
+        {'text': 'Facebook', 'score': 0},
+        {'text': 'Adobe', 'score': 0},
+        {'text': 'Google', 'score': 0},
+        {'text': 'Microsoft', 'score': 0},
+      ],
+    },
+    {
+      'questionText': 'Aorta ravog‘ning o‘rta qismidan qaysi arteriya chiqadi?',
+      'answers': [
+        {'text': 'chap umumiy uyqu', 'score': 1},
+        {'text': 'o‘ng umumiy uyqu', 'score': 0},
+        {'text': 'nomsiz', 'score': 0},
+        {'text': 'o‘ng umrov osti ', 'score': 0},
+      ],
+    },
