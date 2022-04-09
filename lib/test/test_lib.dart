@@ -78,6 +78,29 @@ final list_labs = const [
   },
 ];
 
+final list_video = const [
+  {
+    'name': 'Sezgi o`rganlari laborotoriya mashg`uloti',
+    'url': 'https://www.youtube.com/watch?v=5kt7Y2v36n0',
+    'image': 'assets/data/video1.jpg',
+  },
+  {
+    'name': 'Sezgi o`rganlari laborotoriya mashg`uloti',
+    'url': 'url',
+    'image': 'assets/data/video1.jpg',
+  },
+  {
+    'name': 'Sezgi o`rganlari laborotoriya mashg`uloti',
+    'url': 'url',
+    'image': 'assets/data/video1.jpg',
+  },
+  {
+    'name': 'Sezgi o`rganlari laborotoriya mashg`uloti',
+    'url': 'url',
+    'image': 'assets/data/video1.jpg',
+  },
+];
+
 final list_test0 = const [
   {
     'questionText':

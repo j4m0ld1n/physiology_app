@@ -38,7 +38,11 @@ class _HomePageState extends State<HomePage> {
             });
         break;
       case 2: //video dars
-        page = Text('Video darslar');
+        page = ListView.builder(
+            itemCount: list_video.length,
+            itemBuilder: (BuildContext context, int index) {
+              return myCard(index, list_video, context);
+            });
         break;
       case 3:
         page = ListView.builder(

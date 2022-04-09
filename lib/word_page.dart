@@ -35,21 +35,27 @@ class _WordPageState extends State<WordPage> {
                     mainAxisSize: MainAxisSize.max,
                     children: [
                       Expanded(
-                        flex: 9,
-                        child: Text(
-                          w.en_word,
-                          maxLines: 5,
-                          overflow: TextOverflow.ellipsis,
-                          textAlign: TextAlign.left,
-                          style: const TextStyle(
-                            fontSize: 36,
-                            fontWeight: FontWeight.bold,
-                            color: Color.fromARGB(255, 32, 8, 138),
-                          ),
-                          textDirection: TextDirection.ltr,
-                          softWrap: true,
-                        ),
-                      ),
+                          flex: 9,
+                          child: TextButton(
+                            onPressed: () {
+                              tts.setRate(0.75);
+                              tts.setLanguage('en-EN');
+                              tts.speak(w.en_word);
+                            },
+                            child: Text(
+                              w.en_word,
+                              maxLines: 5,
+                              overflow: TextOverflow.ellipsis,
+                              textAlign: TextAlign.left,
+                              style: const TextStyle(
+                                fontSize: 36,
+                                fontWeight: FontWeight.bold,
+                                color: Color.fromARGB(255, 32, 8, 138),
+                              ),
+                              textDirection: TextDirection.ltr,
+                              softWrap: true,
+                            ),
+                          )),
                       Expanded(
                         flex: 1,
                         child: IconButton(
