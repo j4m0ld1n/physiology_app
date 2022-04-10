@@ -27,35 +27,73 @@ class _HomePageState extends State<HomePage> {
         page = ListView.builder(
             itemCount: list_mavzu.length,
             itemBuilder: (BuildContext context, int index) {
-              return myCard(index, list_mavzu, context);
+              return myCard2(index, list_mavzu, context);
             });
         break;
       case 1: //labs
         page = ListView.builder(
             itemCount: list_labs.length,
             itemBuilder: (BuildContext context, int index) {
-              return myCard(index, list_labs, context);
+              return myCard2(index, list_labs, context);
             });
         break;
       case 2: //video dars
         page = ListView.builder(
             itemCount: list_video.length,
             itemBuilder: (BuildContext context, int index) {
-              return myCard(index, list_video, context);
+              return myCard2(index, list_video, context);
             });
         break;
-      case 3:
+      case 4: //video dars
+        page = ListView.builder(
+            itemCount: list_slayd.length,
+            itemBuilder: (BuildContext context, int index) {
+              return myCard2(index, list_slayd, context);
+            });
+        break;
+      case 3: // Testlar
         page = ListView.builder(
             itemCount: test_title.length,
             itemBuilder: (BuildContext context, int index) {
               return testTitleCard(index, context);
             });
+
         // TextButton(
         //     onPressed: () {
         //       Navigator.pushNamed(context, '/test', arguments: {'id': 3});
         //     },
         //     child: Text('Test'));
         break;
+      case 5:
+        page = Container(
+          width: double.infinity,
+          padding: EdgeInsets.all(20.0),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                'Muallif haqida',
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+              ),
+              SizedBox(
+                height: 20.0,
+              ),
+              Text(
+                'Muallif: Jo\’rayeva Xushruya Yahyoxon qizi,',
+                textAlign: TextAlign.justify,
+                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              ),
+              Text(
+                'Farg\`ona davlat universiteti o\`qituvchisi',
+                textAlign: TextAlign.justify,
+                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              ),
+            ],
+          ),
+        );
+        break;
+
       default:
         page = Text('Error 404. Ma`lumot topilmadi');
         break;
@@ -113,6 +151,19 @@ class _HomePageState extends State<HomePage> {
             onTap: () {
               setState(() {
                 page_index = 0;
+              });
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            tileColor: Theme.of(context).primaryColor,
+            leading: Icon(Icons.list_outlined),
+            title: Text('Taqdimotlar',
+                style:
+                    const TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+            onTap: () {
+              setState(() {
+                page_index = 4;
               });
               Navigator.pop(context);
             },

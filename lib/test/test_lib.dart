@@ -1,5 +1,5 @@
 final test_title = const [
-  '1-MAVZU: KIRISH.  ODAM ANATOMIYASI VA FIZIOLOGIYASI FANINING PREDMETI, MAQSADI, VAZIFALARI, O‘RGANISH USULLARI, BIOLOGIYA FANLARI  SISTEMASIDA TUTGAN O‘RNI. ANATOMIYA FANINING RIVOJLANISH TARIXI. ANATOMIYA TARMOQLARI HAQIDA TUSHUNCHA',
+  '1-MAVZU: KIRISH.  ODAM ANATOMIYASI VA FIZIOLOGIYASI FANINING PREDMETI, MAQSADI, VAZIFALARI, O\‘RGANISH USULLARI, BIOLOGIYA FANLARI  SISTEMASIDA TUTGAN O\‘RNI. ANATOMIYA FANINING RIVOJLANISH TARIXI. ANATOMIYA TARMOQLARI HAQIDA TUSHUNCHA',
   '2-MAVZU :TAYANCH HARAKAT SISTEMASI ORGANLARI: SKELET VA MUSKUL SISTEMASINI UMUMIY TA’RIFI. ',
   '3-MAVZU: ICHKI ORGANLAR. OVQAT HAZM QILISH  VA NAFAS OLISH SISTEMASI ',
   '4-MAVZU. QON AYLANISHI SISTEMASI . YURAKNING TUZILISHI VA AHAMIYATI',
@@ -11,69 +11,105 @@ final list_mavzu = const [
   {
     'name':
         '1-MAVZU. TAYANCH HARAKAT SISTEMASI ORGANLARI: SKELET VA MUSKUL SISTEMASINI UMUMIY TA\’RIFI',
-    'url': 'assets/labs/1maruza.html',
-    'image': 'assets/data/lab1.jpeg',
-  },
-  {
-    'name':
-        '2-MAVZU: ICHKI ORGANLAR. OVQAT HAZM QILISH  VA NAFAS OLISH SISTEMASI',
-    'url': 'assets/labs/2-maruza.html',
+    'url': 'https://phsyologyapp.000webhostapp.com/labs/1maruza.html',
     'image': 'assets/data/lab2.jpeg',
   },
   {
     'name':
+        '2-MAVZU: ICHKI ORGANLAR. OVQAT HAZM QILISH  VA NAFAS OLISH SISTEMASI',
+    'url': 'https://phsyologyapp.000webhostapp.com/labs/2-maruza.html',
+    'image': 'assets/data/ovqat_hazm.png',
+  },
+  {
+    'name':
         '3-MAVZU. QON AYLANISHI SISTEMASI . YURAKNING TUZILISHI VA AHAMIYATI',
-    'url': 'assets/labs/3-maruza.html',
-    'image': 'assets/data/lab3.1.jpg',
+    'url': 'https://phsyologyapp.000webhostapp.com/labs/3-maruza.html',
+    'image': 'assets/data/qon_aylanish.jpeg',
   },
   {
     'name':
         '4-MAVZU. SEZGI ORGANLARI – KO\'RISH, ESHITISH ,TERI,TAM VA XID BILISH  ANALIZATORLARINING TUZILISHI',
-    'url': 'assets/labs/4-maruza.html',
-    'image': 'assets/data/lab3.2.png',
+    'url': 'https://phsyologyapp.000webhostapp.com/labs/4-maruza.html',
+    'image': 'assets/data/lab5.1_2.jpg',
   },
   {
     'name':
         '5-MAVZU. NERV SISTEMASI XAQIDA UMUMIY TUSHUNCHA.BOSH MIYA BO\’LIMLARI. ORQA MIYANING TASHQI VA ICHKI TUZILISH SISTEMALARI',
-    'url': 'assets/labs/5-maruza.html',
-    'image': 'assets/data/biology.jpeg',
+    'url': 'https://phsyologyapp.000webhostapp.com/labs/5-maruza.html',
+    'image': 'assets/data/miyya.png',
+  },
+];
+
+final list_slayd = const [
+  // {
+  //   'name':
+  //       '1-MAVZU. TAYANCH HARAKAT SISTEMASI ORGANLARI: SKELET VA MUSKUL SISTEMASINI UMUMIY TA\’RIFI',
+  //   'url': 'assets/labs/1maruza.html',
+  //   'image': 'assets/data/lab2.jpeg',
+  // },
+  {
+    'name':
+        '2-MAVZU: ICHKI ORGANLAR. OVQAT HAZM QILISH  VA NAFAS OLISH SISTEMASI',
+    'url':
+        'https://drive.google.com/file/d/19fQQvAqrr_F7LiBTq-3_nI0KaASltQtf/preview',
+    'image': 'assets/data/ovqat_hazm.png',
+  },
+  // {
+  //   'name':
+  //       '3-MAVZU. QON AYLANISHI SISTEMASI . YURAKNING TUZILISHI VA AHAMIYATI',
+  //   'url': 'assets/labs/3-maruza.html',
+  //   'image': 'assets/data/qon_aylanish.jpeg',
+  // },
+  {
+    'name':
+        '4-MAVZU. SEZGI ORGANLARI – KO\'RISH, ESHITISH ,TERI,TAM VA XID BILISH  ANALIZATORLARINING TUZILISHI',
+    'url':
+        'https://drive.google.com/file/d/1d2PYmwlkxNQ_CeUGM0qiBnipgWBHV7tG/preview',
+    'image': 'assets/data/lab5.1_2.jpg',
+  },
+  {
+    'name':
+        '5-MAVZU. NERV SISTEMASI XAQIDA UMUMIY TUSHUNCHA.BOSH MIYA BO\’LIMLARI. ORQA MIYANING TASHQI VA ICHKI TUZILISH SISTEMALARI',
+    'url':
+        'https://drive.google.com/file/d/1XHeiBQ_SaY-Wns88MMQFUQaFSfowp8ue/preview',
+    'image': 'assets/data/miyya.png',
   },
 ];
 
 final list_labs = const [
   {
     'name': '1-LABORATORIYA ISHI',
-    'url': 'assets/labs/1.laboratoriya.html',
+    'url': 'https://phsyologyapp.000webhostapp.com/labs/1.laboratoriya.html',
     'image': 'assets/data/lab1.jpeg',
   },
   {
     'name': '2-LABORATORIYA ISHI',
-    'url': 'assets/labs/2.laboratoriya.html',
+    'url': 'https://phsyologyapp.000webhostapp.com/labs/2.laboratoriya.html',
     'image': 'assets/data/lab2.jpeg',
   },
   {
     'name': '3.1-LABORATORIYA ISHI',
-    'url': 'assets/labs/3.1-laboratoriya.html',
+    'url': 'https://phsyologyapp.000webhostapp.com/labs/3.1-laboratoriya.html',
     'image': 'assets/data/lab3.1.jpg',
   },
   {
     'name': '3.2-LABORATORIYA ISHI',
-    'url': 'assets/labs/3.2-laboratoriya.html',
+    'url': 'https://phsyologyapp.000webhostapp.com/labs/3.2-laboratoriya.html',
     'image': 'assets/data/lab3.2.png',
   },
   {
     'name': '4-LABORATORIYA ISHI',
-    'url': 'assets/labs/4-laboratoriya.html',
+    'url': 'https://phsyologyapp.000webhostapp.com/labs/4-laboratoriya.html',
     'image': 'assets/data/biology.jpeg',
   },
   {
     'name': '5.1-LABORATORIYA ISHI',
-    'url': 'assets/labs/5.1-laboratoriya.html',
+    'url': 'https://phsyologyapp.000webhostapp.com/labs/5.1-laboratoriya.html',
     'image': 'assets/data/lab5.1.jpg',
   },
   {
     'name': '5.2-LABORATORIYA ISHI',
-    'url': 'assets/labs/5.2-laboratoriya.html',
+    'url': 'https://phsyologyapp.000webhostapp.com/labs/5.2-laboratoriya.html',
     'image': 'assets/data/fiziologiya.png',
   },
 ];
@@ -81,22 +117,42 @@ final list_labs = const [
 final list_video = const [
   {
     'name': 'Sezgi o`rganlari laborotoriya mashg`uloti',
-    'url': 'https://www.youtube.com/watch?v=5kt7Y2v36n0',
+    'url': 'https://www.youtube.com/embed/5kt7Y2v36n0',
+    'image': 'assets/data/video1.jpg',
+  },
+  {
+    'name': 'Suyat tarkibini o`rganish laborotoriya mashg`uloti',
+    'url': 'https://www.youtube.com/embed/h12402Ri7mI',
     'image': 'assets/data/video1.jpg',
   },
   {
     'name': 'Sezgi o`rganlari laborotoriya mashg`uloti',
-    'url': 'url',
+    'url': 'https://www.youtube.com/embed/5kt7Y2v36n0',
+    'image': 'assets/data/video1.jpg',
+  },
+  {
+    'name': 'Suyat tarkibini o`rganish laborotoriya mashg`uloti',
+    'url': 'https://www.youtube.com/embed/h12402Ri7mI',
     'image': 'assets/data/video1.jpg',
   },
   {
     'name': 'Sezgi o`rganlari laborotoriya mashg`uloti',
-    'url': 'url',
+    'url': 'https://www.youtube.com/embed/5kt7Y2v36n0',
+    'image': 'assets/data/video1.jpg',
+  },
+  {
+    'name': 'Suyat tarkibini o`rganish laborotoriya mashg`uloti',
+    'url': 'https://www.youtube.com/embed/h12402Ri7mI',
     'image': 'assets/data/video1.jpg',
   },
   {
     'name': 'Sezgi o`rganlari laborotoriya mashg`uloti',
-    'url': 'url',
+    'url': 'https://www.youtube.com/embed/5kt7Y2v36n0',
+    'image': 'assets/data/video1.jpg',
+  },
+  {
+    'name': 'Suyat tarkibini o`rganish laborotoriya mashg`uloti',
+    'url': 'https://www.youtube.com/embed/h12402Ri7mI',
     'image': 'assets/data/video1.jpg',
   },
 ];

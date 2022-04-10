@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:uz_fdu_psyology_app/home_page2.dart';
 import 'package:uz_fdu_psyology_app/test/test_page.dart';
 import 'package:uz_fdu_psyology_app/web_page.dart';
+import 'package:uz_fdu_psyology_app/web_page2.dart';
 import 'package:uz_fdu_psyology_app/word_page.dart';
 
 import 'home_page.dart';
@@ -37,6 +38,7 @@ class MyApp extends StatelessWidget {
         '/': ((context) => HomePage()),
         '/test': ((context) => TestPage()),
         '/web': ((context) => WebPage()),
+        '/web2': ((context) => WebPage2()),
         '/dictionary': ((context) => HomePage2()),
         '/word': ((context) => WordPage()),
       },
