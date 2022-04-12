@@ -41,25 +41,27 @@ final list_mavzu = const [
 ];
 
 final list_slayd = const [
-  // {
-  //   'name':
-  //       '1-MAVZU. TAYANCH HARAKAT SISTEMASI ORGANLARI: SKELET VA MUSKUL SISTEMASINI UMUMIY TA\’RIFI',
-  //   'url': 'assets/labs/1maruza.html',
-  //   'image': 'assets/data/lab2.jpeg',
-  // },
+  {
+    'name':
+        '1-MAVZU. TAYANCH HARAKAT SISTEMASI ORGANLARI: SKELET VA MUSKUL SISTEMASINI UMUMIY TA\’RIFI',
+    'url':
+        'https://drive.google.com/file/d/19fQQvAqrr_F7LiBTq-3_nI0KaASltQtf/preview',
+    'image': 'assets/data/lab2.jpeg',
+  },
   {
     'name':
         '2-MAVZU: ICHKI ORGANLAR. OVQAT HAZM QILISH  VA NAFAS OLISH SISTEMASI',
     'url':
-        'https://drive.google.com/file/d/19fQQvAqrr_F7LiBTq-3_nI0KaASltQtf/preview',
+        'https://drive.google.com/file/d/1h6ESTUKAdwPdPLhceul5z9HmihNQ-aQL/preview',
     'image': 'assets/data/ovqat_hazm.png',
   },
-  // {
-  //   'name':
-  //       '3-MAVZU. QON AYLANISHI SISTEMASI . YURAKNING TUZILISHI VA AHAMIYATI',
-  //   'url': 'assets/labs/3-maruza.html',
-  //   'image': 'assets/data/qon_aylanish.jpeg',
-  // },
+  {
+    'name':
+        '3-MAVZU. QON AYLANISHI SISTEMASI . YURAKNING TUZILISHI VA AHAMIYATI',
+    'url':
+        'https://drive.google.com/file/d/1J-9Bs4RNOhFQ8t-0I9in6dADBcoeas3Z/preview',
+    'image': 'assets/data/qon_aylanish.jpeg',
+  },
   {
     'name':
         '4-MAVZU. SEZGI ORGANLARI – KO\'RISH, ESHITISH ,TERI,TAM VA XID BILISH  ANALIZATORLARINING TUZILISHI',
@@ -78,37 +80,41 @@ final list_slayd = const [
 
 final list_labs = const [
   {
-    'name': '1-LABORATORIYA ISHI',
+    'name':
+        '1-LABORATORIYA ISHI: ODAM ANATOMITASI VA FIZIOLOGIYASI FANIDAN QO\’LLANILADIGAN ASBOB USKUNALAR, TAJRIBA O\’TKAZILAYOTGANDA ISHLATILADIGAN ASOSIY USKUNALAR',
     'url': 'https://phsyologyapp.000webhostapp.com/labs/1.laboratoriya.html',
     'image': 'assets/data/lab1.jpeg',
   },
   {
-    'name': '2-LABORATORIYA ISHI',
+    'name':
+        '2-LABORATORIYA ISHI: SUYAKLARNING TUZILISHI ,XILLARI. SUYAK ORGANIK VA ANORGANIK MODDALAR. LABORATORIYA SHAROITIDAGI DEKELSINATSIYA VA YONDIRIB KO`RISH',
     'url': 'https://phsyologyapp.000webhostapp.com/labs/2.laboratoriya.html',
     'image': 'assets/data/lab2.jpeg',
   },
   {
-    'name': '3.1-LABORATORIYA ISHI',
+    'name':
+        '3.1-LABORATORIYA ISHI: ME`DA SHIRASINING FERMENTATIV TA`SIRI OQSILNING ME`DA SHIRASI TA`SIRID PARCHALANISHINI KUZATISH',
     'url': 'https://phsyologyapp.000webhostapp.com/labs/3.1-laboratoriya.html',
     'image': 'assets/data/lab3.1.jpg',
   },
   {
-    'name': '3.2-LABORATORIYA ISHI',
+    'name': '3.2-LABORATORIYA ISHI: O\’PKANING TIRIKLIK SIG\’IMINI ANIQLASH',
     'url': 'https://phsyologyapp.000webhostapp.com/labs/3.2-laboratoriya.html',
     'image': 'assets/data/lab3.2.png',
   },
   {
-    'name': '4-LABORATORIYA ISHI',
+    'name': '4-LABORATORIYA ISHI: QON GURUHLARINI ANIQLASH',
     'url': 'https://phsyologyapp.000webhostapp.com/labs/4-laboratoriya.html',
     'image': 'assets/data/biology.jpeg',
   },
   {
-    'name': '5.1-LABORATORIYA ISHI',
+    'name': '5.1-LABORATORIYA ISHI: SEZGI ORGANLARNI TUZILISHI',
     'url': 'https://phsyologyapp.000webhostapp.com/labs/5.1-laboratoriya.html',
     'image': 'assets/data/lab5.1.jpg',
   },
   {
-    'name': '5.2-LABORATORIYA ISHI',
+    'name':
+        '5.2-LABORATORIYA ISHI: SHARTLI REFLEKS HOSIL BO`LISHI VA UNING TORMOZLANISHI . REFLEKTOR FAOLIYAT',
     'url': 'https://phsyologyapp.000webhostapp.com/labs/5.2-laboratoriya.html',
     'image': 'assets/data/fiziologiya.png',
   },
@@ -116,45 +122,42 @@ final list_labs = const [
 
 final list_video = const [
   {
-    'name': 'Sezgi o`rganlari laborotoriya mashg`uloti',
-    'url': 'https://www.youtube.com/embed/5kt7Y2v36n0',
-    'image': 'assets/data/video1.jpg',
-  },
-  {
-    'name': 'Suyat tarkibini o`rganish laborotoriya mashg`uloti',
+    'name':
+        '1-mavzu: Suyak tarkibidagi organik va anorganik moddalar. Laboratoriya sharoitidagi dekalsinatsiya',
     'url': 'https://www.youtube.com/embed/h12402Ri7mI',
-    'image': 'assets/data/video1.jpg',
+    'image': 'assets/data/video1.png',
   },
   {
-    'name': 'Sezgi o`rganlari laborotoriya mashg`uloti',
+    'name':
+        '2-mavzu.Meda shirasining fermentativ ta\'siri ,oqsilning meda shirasi ta\'sirida parchalanishini kuzatish',
+    'url': 'https://www.youtube.com/embed/4HDl_pxvtTE',
+    'image': 'assets/data/video2.png',
+  },
+  {
+    'name': '3-mavzu. Qon guruhi va rezus omilini aniqlash',
+    'url': 'https://www.youtube.com/embed/rciuVA30eAU',
+    'image': 'assets/data/video3.png',
+  },
+  {
+    'name': '4.1-mavzu. Sezgi o`rganlari. Ko\'rish o\'tkirligini aniqlash',
+    'url': 'https://www.youtube.com/embed/QaDo2tAKk_w',
+    'image': 'assets/data/video4_1.png',
+  },
+  {
+    'name': '4.2 -mavzu. Sezgi organlari. Ko\'rish maydonini aniqlash.',
     'url': 'https://www.youtube.com/embed/5kt7Y2v36n0',
-    'image': 'assets/data/video1.jpg',
+    'image': 'assets/data/video4_2.png',
   },
-  {
-    'name': 'Suyat tarkibini o`rganish laborotoriya mashg`uloti',
-    'url': 'https://www.youtube.com/embed/h12402Ri7mI',
-    'image': 'assets/data/video1.jpg',
-  },
-  {
-    'name': 'Sezgi o`rganlari laborotoriya mashg`uloti',
-    'url': 'https://www.youtube.com/embed/5kt7Y2v36n0',
-    'image': 'assets/data/video1.jpg',
-  },
-  {
-    'name': 'Suyat tarkibini o`rganish laborotoriya mashg`uloti',
-    'url': 'https://www.youtube.com/embed/h12402Ri7mI',
-    'image': 'assets/data/video1.jpg',
-  },
-  {
-    'name': 'Sezgi o`rganlari laborotoriya mashg`uloti',
-    'url': 'https://www.youtube.com/embed/5kt7Y2v36n0',
-    'image': 'assets/data/video1.jpg',
-  },
-  {
-    'name': 'Suyat tarkibini o`rganish laborotoriya mashg`uloti',
-    'url': 'https://www.youtube.com/embed/h12402Ri7mI',
-    'image': 'assets/data/video1.jpg',
-  },
+  // {
+  //   'name': 'Suyat tarkibini o`rganish laborotoriya mashg`uloti',
+  //   'url': 'https://www.youtube.com/embed/h12402Ri7mI',
+  //   'image': 'assets/data/video1.jpg',
+  // },
+  // {
+  //   'name': 'Sezgi o`rganlari laborotoriya mashg`uloti',
+  //   'url': 'https://www.youtube.com/embed/5kt7Y2v36n0',
+  //   'image': 'assets/data/video1.jpg',
+  // },
 ];
 
 final list_test0 = const [
